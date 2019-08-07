@@ -1,20 +1,11 @@
 # auth0 Client Rules
 
-## Getting started
+This project is based off [auth0-angular-samples](https://github.com/auth0-samples/auth0-angular-samples)
 
-1. Run `npm install`
-2. Run `npm run dev`
-3. Navigate to [http://localhost:3000/](http://localhost:3000/)
+Documentation for that repo is [here](https://auth0.com/docs/quickstart/spa/angular2)
 
-## Configuration
+## Documentation
 
-The sample needs to be configured with your Auth0 domain and client ID in order to work. In the root of the sample, copy `auth_config.json.example` and rename it to `auth_config.json`. Open the file and replace the values with those from your Auth0 tenant:
-
-```json
-{
-  "domain": "<YOUR AUTH0 DOMAIN>",
-  "clientId": "<YOUR AUTH0 CLIENT ID>",
-  "audience": "<YOUR AUTH0 API AUDIENCE IDENTIFIER>",
-  "token": "<YOUR AUTH0 API TOKEN>"
-}
-```
++ [Quickstart](./docs/QUICKSTART.md)
++ [Configuration](./docs/CONFIGURATION.md)
++ [Usage Guide](./docs/USAGE_GUIDE.md)
