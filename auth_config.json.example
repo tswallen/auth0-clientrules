@@ -1,0 +1,6 @@
+{
+  "domain": "<YOUR AUTH0 DOMAIN>",
+  "clientId": "<YOUR AUTH0 CLIENT ID>",
+  "audience": "<YOUR AUTH0 API AUDIENCE IDENTIFIER>",
+  "token": "<YOUR AUTH0 API TOKEN>"
+}

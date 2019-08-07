@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <h1>Rules</h1>
+  <p class="mb-5">
+    A table of clients mapped to the rules that apply to them
+  </p>
+
+  <table class="table" *ngIf="clients && rules; else loading">
+    <tr>
+      <th>Client</th>
+      <th>Rules</th>
+    </tr>
+    <tr *ngFor="let client of clients" [hidden]="client.name === 'All Applications'">
+      <td>{{client.name}}</td>
+      <td>
+        <ul>
+          <li *ngFor="let rule of client.rules">{{rule.name}}</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <ng-template #loading>
+    <div class="spinner-border text-primary">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </ng-template>
+
+</div>
